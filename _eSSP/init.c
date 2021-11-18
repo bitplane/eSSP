@@ -18,7 +18,7 @@ SSP_COMMAND *ssp_init(char *port_c, char *addr_c, int debug)
     //Open the COM port
     if ( debug == 1 ){ 
 	    printf("PORT: %s\n", port_c); // Printing the connection informations
-
+            printf("sspC: %x\n", sspC);
 	    printf ("##%s##\n", port_c);
     }
 
